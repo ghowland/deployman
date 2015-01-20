@@ -1,0 +1,19 @@
+# Path where temporary work will be performed
+deploy_temp_path: /tmp/deployman/tmp/
+
+deploy_source:
+  type: https
+  url: "http://localhost:8686/rpc/deployman_get"
+  
+  # This secret is for all the nodes as the moment, but can be turned into per-node or something else
+  secret: "19a787a1df63e29da9d795e2043b0e71"
+
+
+deploy_report:
+  type: https
+  url: "http://localhost:8686/rpc/deployman_report"
+  
+  # This secret is for all the nodes as the moment, but can be turned into per-node or something else
+  secret: "19a787a1df63e29da9d795e2043b0e71"
+
+
