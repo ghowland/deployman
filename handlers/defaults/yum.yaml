@@ -1,0 +1,7 @@
+name: null
+version: null
+remove: false
+
+#TODO(g): Figure out how to do this properly.  Download RPM from Yum repo, and rpm --nodeps --force?  Work it through...
+#force install: false
+#force remove: false

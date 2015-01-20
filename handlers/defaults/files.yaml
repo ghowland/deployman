@@ -1,0 +1,21 @@
+path: null
+source path: null
+symlink path: null
+remove: false
+template: false
+
+user: root
+group: root
+mode: 644
+directory mode: 755
+
+ignore directories: ['.svn', '.git']
+ignore files: ['.gitignore']
+
+set base directory permissions: false
+
+# If true, this file will not collapse into the normal order of import, so that they can happen at a later time than first encountered
+ordered: false
+
+# If this file is not a match for a given path.  This is the only exclusionary directive and is the compliment to "ordered", in that something done initially should not be re-done when the alter ordered function is run
+if not match: null
