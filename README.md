@@ -1,5 +1,5 @@
 DeployMan
 =========
 
-DeployMan - Deploy machines, software, anything.  Life cycle management for anything.
+DeployMan - Deploy machines, software, configurations. Dynamic life cycle management for anything.
 
